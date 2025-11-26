@@ -1,19 +1,18 @@
 {
-    "manifest_version": 3,
-    "name": "Goodreads Rating Hider",
-    "version": "1.2",
-    "description": "Hide or show Goodreads ratings and stars with a toggle.",
-    "permissions": ["storage"],
-    "action": {
-      "default_popup": "popup.html"
-    },
-    "content_scripts": [
-      {
-        "matches": ["*://www.goodreads.com/*"],
-        "js": ["content.js"],
-        "css": ["hide.css"],
-        "run_at": "document_start"
-      }
-    ]
-  }
-  
+  "manifest_version": 3,
+  "name": "Goodreads Rating Hider",
+  "version": "1.2",
+  "description": "Hide or show Goodreads ratings and stars with a toggle.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.goodreads.com/*"],
+      "js": ["content.js"],
+      "css": ["hide.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
