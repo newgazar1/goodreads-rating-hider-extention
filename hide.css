@@ -1,0 +1,32 @@
+/* Only hide ratings when the html element has the gr-hide-ratings class */
+
+html.gr-hide-ratings .minirating,
+html.gr-hide-ratings span[itemprop='ratingValue'],
+html.gr-hide-ratings span[itemprop='ratingCount'],
+html.gr-hide-ratings span[itemprop='reviewCount'],
+html.gr-hide-ratings .average,
+html.gr-hide-ratings .avg_rating,
+html.gr-hide-ratings .ratingsCount,
+html.gr-hide-ratings .ratingCount,
+html.gr-hide-ratings .reviewCount,
+html.gr-hide-ratings .uitext .greyText,
+html.gr-hide-ratings [data-testid='rating'],
+html.gr-hide-ratings .RatingStatistics__rating,
+html.gr-hide-ratings .RatingStatistics__meta,
+
+html.gr-hide-ratings .staticStars,
+html.gr-hide-ratings .stars,
+html.gr-hide-ratings .stars.greyStars,
+html.gr-hide-ratings .stars.filled,
+html.gr-hide-ratings .rating .stars,
+html.gr-hide-ratings .rating .staticStars,
+html.gr-hide-ratings .bookMeta .rating,
+html.gr-hide-ratings .rating,
+html.gr-hide-ratings .ratingStars,
+html.gr-hide-ratings .RatingStars,
+html.gr-hide-ratings [aria-label*="stars"],
+html.gr-hide-ratings [class*="StarRating"],
+html.gr-hide-ratings [class*="starRating"] {
+  display: none !important;
+  visibility: hidden !important;
+}
